@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color:#222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper {
+  width: 80%;
+  height: 100%;
+}
+.swiper-slide img{
+  width: 100%;
+
+}
+.swiper .swiper-button-prev:hover, .swiper .swiper-button-next:hover{
+  color: #222;
+  
+}
+.swiper .swiper-pagination-bullet-active{
+  color: #222;
+}
